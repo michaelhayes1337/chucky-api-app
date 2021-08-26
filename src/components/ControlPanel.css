@@ -1,0 +1,37 @@
+.controlpanel{
+    border: 1px solid black;
+    width: 80%;
+    margin: 2.5% auto;
+    padding: 1.5% 1.5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.controlpanel-category{
+    flex: 3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.controlpanel-btns{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.btn{
+    border-radius: 2px solid black;
+    border-radius: 12px;
+    margin: 0 2%;
+    font-weight: bold;
+    font-family: Courier New;
+}
+
+.btn:hover{
+    background-color: rgb(241,90,36,0.2);
+    border: 2px solid rgb(241,90,36);
+    cursor: pointer;
+}

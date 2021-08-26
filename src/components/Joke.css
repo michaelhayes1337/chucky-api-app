@@ -1,0 +1,17 @@
+.joke{
+    width: 80%;
+    margin: 3% auto;
+}
+
+.joke-title{
+    font-family: chucky;
+    color: #f15b23;
+    font-size: 20px;
+    font-weight: 300;
+    text-shadow: 3px 3px #222;
+    margin-bottom: 1.5%;
+}
+
+.joke-content{
+    font-family: Courier New;
+}
